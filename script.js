@@ -44,11 +44,8 @@ buttons.forEach(btn =>{
              
         }
 
-        else if(count==9){
-            h.textContent="DRAW";
-            gamenotover=false;
-        }
-        if(count==9){
+        
+        if(count==9 && gamenotover==true){
             h.textContent="DRAW";
             gamenotover=false;
         }
