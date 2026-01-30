@@ -34,11 +34,18 @@ body{
 }
 
 @media (max-width:600px){
+    .boxes{
+    background-color:rgb(19, 19, 109);
+    justify-content:center;
+    align-items:center;
+    border:8px solid rgb(30, 111, 240);
+    font-size:15vw;
+    color:rgb(30, 111, 240);}
     #container{
     width:90vw;
     display:grid;
     margin:40px auto;
-    grid-template-rows:1fr 1fr 1fr;
+    grid-template-rows:30vw 30vw 30vw;
     grid-template-columns:1fr 1fr 1fr;
     border-radius:10px;
     border:8px solid rgb(30, 111, 240);}
