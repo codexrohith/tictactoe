@@ -32,3 +32,14 @@ body{
     font-family:funky;
     color:white;
 }
+
+@media (max-width:600px){
+    #container{
+    width:90vw;
+    display:grid;
+    margin:40px auto;
+    grid-template-rows:1fr 1fr 1fr;
+    grid-template-columns:1fr 1fr 1fr;
+    border-radius:10px;
+    border:8px solid rgb(30, 111, 240);}
+}
